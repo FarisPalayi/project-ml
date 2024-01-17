@@ -1,0 +1,4 @@
+numpy==1.26.3
+pandas==2.1.4
+scikit_learn==1.3.2
+pipreqs==0.4.13
