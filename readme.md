@@ -1,6 +1,6 @@
 # Machine Learning Weather Forecasting Project
 
-This project aims to develop a machine learning model for weather forecasting.
+This project aims to utilize machine learning techniques to improve weather forecasting. By analyzing large datasets and applying advanced algorithms, the goal is to enhance the accuracy of weather predictions. A publicly available weather dataset that includes various meteorological parameters such as temperature, humidity, wind speed, and precipitation is used for the training of the model. The dataset is collected from multiple weather stations over a specific time period.
 
 ## Usage
 
@@ -20,9 +20,6 @@ To use the project, follow these steps:
 
 1. Run the files
 
-### Project Structure
-
-The project structure is as follows:
 ### Project Structure
 
 The project structure is as follows:
