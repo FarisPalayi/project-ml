@@ -3,7 +3,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 from sklearn.linear_model import Ridge
 import pandas as pd
 
-weather = pd.read_csv("weather.csv", index_col="DATE")
+weather = pd.read_csv("data/weather.csv", index_col="DATE")
 null_pct = weather.apply(pd.isnull).sum()/weather.shape[0]
 valid_columns = weather.columns[null_pct < .05]
 
