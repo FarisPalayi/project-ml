@@ -12,8 +12,11 @@ To use the project, follow these steps:
   git clone https://github.com/FarisPalayi/project-ml.git
   ```
 
-2. Install the required dependencies:
+1. Install the required dependencies:
 
+  ```bash
+  cd project-ml
+  ```
   ```bash
   pip install -r weather-forecast/requirements.txt
   ```
