@@ -10,6 +10,7 @@ else
 fi
 
 # Execute the git commands
+git pull
 git add -A
 git commit -m "$COMMIT_MESSAGE"
 git push
