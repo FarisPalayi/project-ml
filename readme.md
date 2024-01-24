@@ -10,6 +10,7 @@ To use the project, follow these steps:
 
    - You can check it by typing `git --version` in the terminal. If the output is something like `git version 2.30.0.windows.2`, git is already installed. If not, you need to install it.
    - [Install Git](https://git-scm.com/downloads)
+  
      After installation, configure git by adding your name and email:
 
    ```bash
