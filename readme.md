@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 1. **Edit files:**
    Make your modifications to the project/files
-2. **Sync the repository**
+2. **Sync the repository:**
    Upload your local changes(file modifications) to the shared space (remote repository)
    ```bash
    ./sync.sh
