@@ -6,26 +6,6 @@ This project aims to utilize machine learning techniques to improve weather fore
 
 To use the project, follow these steps:
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/FarisPalayi/project-ml.git
-```
-
-2. Install the required dependencies:
-
-```bash
-cd project-ml
-```
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the files
-
-### To contribute to this project
-
 1. **Install git if not on your system**
    - You can check it by typing `git --version` in the terminal. If the output is something like `git version 2.30.0.windows.2`, git is already installed. If not, you need to install it.
    - [Install Git](https://git-scm.com/downloads)
@@ -36,21 +16,42 @@ pip install -r requirements.txt
    ```bash
    git config --global user.email "Your email"
    ```
-2. **Edit files:**
-   Make your modifications to the project/files
-3. **Sync the repository**
-   Upload your local changes to the shared space (remote repository)
-   ```bash
-   ./sync.sh "mention the changes you've done to the files here"
-   ```
-   *note:* don't forget to add the 
 
-- If this gives a _permission error_ type this command and retry
+2. Clone the repository:
+
+```bash
+git clone https://github.com/FarisPalayi/project-ml.git
+```
+
+3. Install the required dependencies:
+
+```bash
+cd project-ml
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the files
+
+### To contribute to this project
+
+1. **Edit files:**
+   Make your modifications to the project/files
+2. **Sync the repository**
+   Upload your local changes(file modifications) to the shared space (remote repository)
+   ```bash
+   ./sync.sh
+   ```
+
+- If this gives a _permission error_ type this command first and retry
   ```bash
   chmod +x sync.sh
   ```
 
-1. Then the you will be prompted to enter a github username and password. Type these 👇 to get access to the remote repository.
+3. **Enter the credentials:**
+   Then you will be prompted to enter a github username and password. Type these 👇 to get access to the remote repository.
 
 ```bash
 username: FarisPalayi
@@ -58,9 +59,9 @@ password: github_pat_11ASYE3IA0yKALo1GSoe8S_ckLn9OjYLyYiF0Y451EPsycZNt7XqlmeCGiG
 # this password is a Personal access token that gives permission to use this project repository
 ```
 
-That's it. Repeat the 2 and 3 steps as you make more modifications to the project like changing code, adding new files, deleting, etc.
+That's it. Repeat the 1 and 2 steps as you make more modifications to the project like changing code, adding new files, deleting, etc.
 
-_NOTE_: For the ./sync command to work, you need to be connected to internet.
+**Note**: For the ./sync command to work, you need to be connected to internet.
 
 ### Project Structure
 
