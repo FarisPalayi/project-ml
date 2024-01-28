@@ -6,10 +6,10 @@ This project aims to utilize machine learning techniques to improve weather fore
 
 To use the project, follow these steps:
 
-1. **Install git if it's not already on your system**
+1. **Install git and python(v3+) if it's not already on your system**
 
-   - You can check it by typing `git --version` in the terminal. If the output is something like `git version 2.30.0.windows.2`, git is already installed. If not, you need to install it.
-   - [Install Git](https://git-scm.com/downloads)
+   - You can check it by typing `git --version` in the terminal. If the output is something like `git version 2.30.0.windows.2`, git is already installed. If not, you need to install it. Python can also be checked in this way using teh `python --version` command
+   - [Install Git](https://git-scm.com/downloads) | [Install Python](https://www.python.org/downloads/)
   
      After installation, configure git by adding your name and email:
 
