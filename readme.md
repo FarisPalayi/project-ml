@@ -66,7 +66,7 @@ pip install -r requirements.txt
 ```bash
 username: FarisPalayi
 password: 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
-# this password is a Personal access token that gives permission to use this project repository
+# this password is a Personal access token(PAT) that gives permission to use this project repository. The given password here does not work. For a working PAT, contact me
 ```
 
 The credentials are also stored in the `credentials.conf` file.
