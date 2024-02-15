@@ -1,0 +1,3 @@
+- mention scikit learn and pandas in the project report
+- give a full breakdown of the code used in the project
+- give a full breakdown of the data used in the project
